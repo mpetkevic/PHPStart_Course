@@ -10,6 +10,7 @@
 </head>
 <body>
     <?php echo 435245; ?>
+    <?php echo "PHP Course" ?>
 </body>
 </html>
 
