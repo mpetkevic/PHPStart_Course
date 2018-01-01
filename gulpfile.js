@@ -9,7 +9,7 @@ const notify       = require("gulp-notify");
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        proxy: "localhost:8888/CleanGulp/src/"
+        proxy: "localhost:8888/PHPStart_Course/src/"
     });
 
     gulp.watch("./src/scss/*.scss", ['sass']);
